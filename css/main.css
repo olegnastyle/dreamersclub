@@ -1,3 +1,7 @@
+* { transition: all .1s linear; }
+
+p, span { cursor: default; }
+
 .hourglass::before {
     content: "";
     background-image: url(../img/hourglass.png);
