@@ -16,11 +16,23 @@
           }
         }
       </script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body class="container mx-auto bg-pink-950 text-pink-50">
-    <div id="app" class="bg-pink-600 h-screen">
-        
+    <div id="app" class="bg-pink-600">
+        <header class="flex items-center gap-8 w-max mx-auto py-8">
+            <div class="hourglass flex items-center bg-pink-300 rounded-tl-lg rounded-br-lg px-8 py-1 w-max relative ">
+                <span>0</span>
+                <a class="bg-pink-700 rounded-full w-7 h-7 flex justify-center align-center absolute top-[-10px] right-[-10px]" href="#">+</a>
+            </div>
+            <div class="ruby flex items-center bg-pink-300 rounded-tl-lg rounded-br-lg px-8 py-1 w-max relative ">
+                <span>0</span>
+                <a class="bg-pink-700 rounded-full w-7 h-7 flex justify-center align-center absolute top-[-10px] right-[-10px]" href="#">+</a>
+            </div>
+            <a class="bg-pink-700 rounded-full flex justify-center items-center w-8 h-8" href="#">
+                <img class="w-4 h-4 opacity-60" src="./img/gear.png" alt="Шестерня">
+            </a>
+        </header>
     </div>
 </body>
 </html>
